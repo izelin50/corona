@@ -79,6 +79,10 @@
             <div id="hidden2" style="display: none;">
 
                 <h2>Введите, пожалуйста, количество циклов и участников</h2>
+                <b>Внимание! Проект ещё на стадии тестирования, исключена возможность возникновения весомой части ошибок,
+                но по-прежнему возмоно возвращение Вам страницы "whiyelabel page". О любых подобных недоразумениях
+                    сообщайте, пожалуйста, на <a href="mailto:izelin50+development+corona239@gmail.com">эту</a> почту.</b>
+                <br><br>
                 <form method="post" action="input">
                     <input min="3" max="99" type="number" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" name="time" required
                            placeholder="Продолжительность"></input>
@@ -100,7 +104,7 @@
                                value="10" placeholder="Скорость генерации"></input>
                         <input min="1" type="number" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" name="MAX_VIRUS" required
                                value="10" placeholder="Вирус сначала"></input>
-                    </div><br>
+                    </div><br><br>
                     <button type="submit">Отправить</button>
                 </form>
 
