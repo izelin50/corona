@@ -53,6 +53,7 @@ public class AppController {
         disposition.create();
         for (int i = 0; i < time; i++) {
             cycle.repeat();
+            localVirus*=10;
             localVirus /= members;
             sumFood*=1000;
             sumFood /= sumSpeed;
